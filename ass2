@@ -1,0 +1,17 @@
+s=input()
+l=list(s)
+t=[]
+for i in l:
+    t.append(int(i))
+odd=[]
+even=[]
+for i in t:
+    if i%2==1:
+        odd.append(i)
+    else:
+        even.append(i)
+for i in odd:
+    print(i,end='')
+print(end=' ')
+for i in even:
+    print(i,end='')
